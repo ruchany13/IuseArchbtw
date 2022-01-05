@@ -7,3 +7,5 @@ systemctl enable NetworkManager.service
 pacman -S neofetch
 pacman -S gedit
 neofetch
+curl rate.sx //For trade rate.sx/ETH...
+curl wttr.in //Current location weather. wttr.in/Yalova choosen location
