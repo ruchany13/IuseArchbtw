@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 			---Arch Installation----(EFI)  
+=======
+
+			---Arch Installation----(EFI)  
+
+>>>>>>> f4c01c690500314870053a8ab2fe8e67b38eb5fb
 
 Ruchan Yalçın /Yalova University
 
