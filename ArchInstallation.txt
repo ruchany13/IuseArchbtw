@@ -1,9 +1,4 @@
-<<<<<<< Updated upstream
 			---Arch Installation----(EFI)  
-=======
-			---Arch Installation----  (EFI)  
-
->>>>>>> Stashed changes
 
 Ruchan Yalçın /Yalova University
 
