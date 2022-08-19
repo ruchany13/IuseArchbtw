@@ -21,8 +21,16 @@ sudo docker run hello-world
 
 #Install zsh
 
+
 #OhMyZsh
 
 #Nvim
 
 #Doomvim
+
+#Somethings good
+sudo apt-get install neofetch \
+cmatrix
+
+neofetch
+
