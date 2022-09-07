@@ -34,6 +34,13 @@ sudo systemctl start docker #Start Docker
 sudo systemctl enable docker
 sudo systemctl status docker #!! Check the enable system.
 
+#Snap Store for CentOS.7
+sudo yum install -y epel-release
+sudo yum install -y snapd
+sudo systemctl enable --now snapd.socket
+sudo ln -s /var/lib/snapd/snap /snap
+
+
 
 #Install zsh
 
