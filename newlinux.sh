@@ -21,6 +21,20 @@ sudo apt-get -y install docker-ce docker-ce-cli containerd.io docker-compose-plu
 
 sudo docker run hello-world
 
+# Docker Centos
+sudo yum check-update
+
+sudo yum install -y yum-utils device-mapper-persistent-data lvm2 #Install dependies
+
+sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo #Add docker repository to Centos
+
+sudo yum install docker #Install Docker with Yum
+
+sudo systemctl start docker #Start Docker
+sudo systemctl enable docker
+sudo systemctl status docker #!! Check the enable system.
+
+
 #Install zsh
 
 
