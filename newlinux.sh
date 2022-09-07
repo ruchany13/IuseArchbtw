@@ -40,6 +40,12 @@ sudo yum install -y snapd
 sudo systemctl enable --now snapd.socket
 sudo ln -s /var/lib/snapd/snap /snap
 
+# Nvim for CentOS
+sudo yum makecache
+sudo yum -y install neovim
+
+sudo yum install -y git node npm fd rg wget unzip
+bash <(curl -s https://raw.githubusercontent.com/NTBBloodbath/doom-nvim/main/tools/install.sh)
 
 
 #Install zsh
